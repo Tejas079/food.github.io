@@ -1,0 +1,166 @@
+
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* headname is the container of Heading H1 */
+.headName{
+    /* flex is given just for use property alignite and justify content */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 60px;
+    align-items: center;
+}
+/* -------------------------------------------------------------------------------- */
+/* container1,2,3 are the entire container box for image+content  */
+.containerOne, .containerTwo, .containerThree {
+    margin-top: 20px;
+    width: 100vw;
+    height: 85vh;
+    background-color: #ffc2ff;
+}
+
+.containerTwo {
+    margin-top: 20px;
+    width: 100vw;
+    height: 95vh;
+    background-color: #F9F871;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* burger and contentOne are the Child container of the container1 */
+
+.burger {
+    float: right;
+    margin: 10px 0px;
+    margin-right: 50px;
+    /* display: inline-block; */
+    background-image: url("image/burgg.jpg");
+    width: 55vw;
+    height: 80vh;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.contentOne {
+    float: left;
+    background-color: #ac2323;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 60px;
+    width: 28%;
+    height: 89%;
+    border-radius: 5px;
+    font-size: 1.1em;
+
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* Pizza and contentTwo are the Child container of the container2 */
+
+
+.Pizza {
+    float: left;
+    margin: 20px;
+    /* display: inline-block; */
+    background-image: url("image/pizzasub1.jpg");
+    width: 60vw;
+    height: 90vh;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.contentTwo {
+    float: right;
+    background-color: #ac2323;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 60px;
+    width: 25%;
+    height: 89%;
+    border-radius: 5px;
+    font-size: 1.1em;
+
+
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* pasta and contentThree are the Child container of the container3 */
+
+.Pasta {
+    float: right;
+    margin: 10px 20px;
+    /* display: inline-block; */
+    background-image: url("image/pasta.jpg");
+    width: 60vw;
+    height: 80vh;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.contentThree {
+    float: left;
+    background-color: #ac2323;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 40px;
+    width: 25%;
+    height: 89%;
+    border-radius: 5px;
+    font-size: 1.1em;
+
+
+}
+
+/* /* -------------------------------------------------------------------------------- */
+
+/* button i.e for add to cart*/
+
+.btn{
+    text-align: center;
+}
+button{
+    width: 90px;
+    line-height: 2;
+    margin-top: 10px;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+    cursor: pointer;
+}
+
+
+/* /* -------------------------------------------------------------------------------- */
+/* footer */
+footer {
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.footer-cont>h3 {
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
